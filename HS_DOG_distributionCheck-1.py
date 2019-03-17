@@ -74,3 +74,4 @@ print("\nNot sigdiff vs Up in HS:\n", stats.ranksums(
     df_NOT_sigdiff['DOG_length'], df_sigdiff_upHS['DOG_length']))
 print("\nUp in Control vs Up in HS:\n", stats.ranksums(
     df_sigdiff_control['DOG_length'], df_sigdiff_upHS['DOG_length']))
+
