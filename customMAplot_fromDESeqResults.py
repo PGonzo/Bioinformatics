@@ -1,9 +1,6 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[1]:
-
-
 import pandas as pd
 import numpy as np
 import seaborn as sns
@@ -39,10 +36,3 @@ plt.rcParams['figure.figsize'] = 10, 5
 plt.axhline(y=0,color='black')
 sns_plot.figure.savefig(path + "SCA_maplot.png")
 plt.show()
-
-
-# In[ ]:
-
-
-
-
