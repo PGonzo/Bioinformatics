@@ -9,7 +9,7 @@ import sys
 templatename = "star_templatePairedEnd.sh"
 with open(templatename) as f:
     templatecontents = f.read()
-    #this block is load template file
+    #this block loads template file
 
 forward_Pairlist = sorted(glob.glob('*_1_FPUnmapped.out.mate1'))
 reverse_Pairlist = sorted(glob.glob('*_1_FPUnmapped.out.mate2'))
