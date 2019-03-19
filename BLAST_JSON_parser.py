@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-#load notebook with code below uncommented if computer is choking:
+#load notebook with code below uncommented if size of file is too large for memory:
 #jupyter notebook --NotebookApp.iopub_data_rate_limit=10000000000
 
 import pandas as pd
@@ -59,9 +59,6 @@ df_fasta_cleaned_r.to_csv("/Users/patrickgonzales/Desktop/Linklab/Microbiome/Sle
 
 # download gtf to filter fasta
 df_gtf = pd.read_csv("/Users/patrickgonzales/Desktop/Linklab/Microbiome/SleepMice/contigs/Sleep_All_K75_blastedcontigs_cleaned_named_filtered_jgi.gtf", sep="\t", header=None)
-
-
-# In[291]:
 
 
 # filter and write out gtf
