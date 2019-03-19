@@ -1,15 +1,9 @@
 import pandas as pd
 import csv
+
 names = ["rep","family","model","length"]             #MSAT1_CE	SAT	Caenorhabditis elegans	226
 df = pd.read_csv("celegansRepbase_rep_chrmsize.genome", sep="\t", names=names)
-
-
-
-
 df["Strand"] = "+"
-
-
-
 df["source"] = "Ensembl"
 df["type"] = "exon"
 df["dot"] = "."
